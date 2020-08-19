@@ -4,8 +4,7 @@
   "description": "Paypal Integration using Nodejs",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
- 
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.13.2",
