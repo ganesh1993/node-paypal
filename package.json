@@ -2,9 +2,9 @@
   "name": "NodeJs-Paypal",
   "version": "0.0.1",
   "description": "Paypal Integration using Nodejs",
-    "scripts": {
-    "start": "nodemon app.js",
-    "prod": "node app.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
   },
   "dependencies": {
     "body-parser": "^1.13.2",
