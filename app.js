@@ -1,8 +1,7 @@
 /*
- * Author: Rohit Kumar
- * Date: 22-07-2015
+ * Author: Ganesh Tiwari
+ * Date: 19-08-2020
  * App Name: Nodejs-Paypal
- * Website: iamrohit.in
  * Description: Program to Integrate paypal payment gateway in nodejs
  */
 var http=require('http');
@@ -23,8 +22,8 @@ var config = {
   "api" : {
     "host" : "api.sandbox.paypal.com",
     "port" : "",            
-    "client_id" : "AdPG1IPGnI7A_PkktQq8Ya87ep7KAzf8JFCxdEHYg5qGAVNjKxpjvHu8pLK2Z-WqpXjg9JKTfwZRk62m",  // your paypal application client id
-    "client_secret" : "EPtpW4LgbKxWQZ47a1avkt98Z7yu7AA7qYxbtTY6BHxi2h4kL_hpZH2VCVAEY5GXda47QbNxlLwMme_h" // your paypal application secret id
+    "client_id" : "Your client ID",  // your paypal application client id
+    "client_secret" : "Your Secret Id" // your paypal application secret id
   }
 }
  
